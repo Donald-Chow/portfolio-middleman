@@ -3,6 +3,7 @@
   image: projects/logo_orange_bg.png
   url: https://www.smartvacay.app
   color: "#EB6440"
+  year: 2023
 
 - name: Movie Watchlist
   description: Decent description of the app

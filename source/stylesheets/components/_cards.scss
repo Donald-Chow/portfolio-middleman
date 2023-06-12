@@ -10,6 +10,7 @@
   display: flex;
   align-items: start;
   flex-direction: row-reverse;
+  justify-content: space-between;
   padding-left: 4px;
   filter: grayscale(100%);
   transition-duration: 0.3s;
@@ -18,7 +19,32 @@
   &:hover {
     filter:grayscale(0%);
     height: 500px;
+
+    .card-product-outer {
+      display: block;
+    }
+
+    .card-product-year{
+      transform: none;
+      translate: none;
+      padding-left: 16px;
+      padding-top: 16px
+    }
+
+    .card-product-infos {
+      padding-top: 0;
+    }
   }
+}
+
+.card-product-outer {
+  display: flex;
+}
+
+.card-product-year {
+  transform: rotate(-90deg);
+  transform-origin: right top;
+  translate: -70% 35%;
 }
 
 .card-product img {
