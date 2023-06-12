@@ -1,7 +1,8 @@
-- name: Longest Word Game
-  description: Decent description of the app
-  image: projects/placeholder.png
-  url: https://www.google.com
+- name: SmartVacay
+  description: Final project for Batch 1190 Web Development course. This Web App allows user to create an itinerary for their trip with a single click of a button.
+  image: projects/logo_orange_bg.png
+  url: https://www.smartvacay.app
+  color: "#EB6440"
 
 - name: Movie Watchlist
   description: Decent description of the app

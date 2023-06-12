@@ -5,8 +5,9 @@
         <h2> Projects</h2>
         <div class="cards">
           <% data.projects.each do |project| %>
-            <div class="card-product">
-              <div class="card-product-infos w-100">
+            <div class="card-product" style="border-left: 3px solid <%= project.color %>;">
+              <%= image_tag project.image, alt: "project image" %>
+              <div class="card-product-infos my-2">
                 <div class="d-flex justify-content-between align-items-center">
                   <h2><%= project.name %></h2>
                   <% link_to project.url, class: 'external-link', target: '_blank' do %>
@@ -15,7 +16,6 @@
                 </div>
                 <p><%= project.description %></p>
               </div>
-              <%= image_tag project.image, alt: "project image" %>
             </div>
           <% end %>
         </div>
