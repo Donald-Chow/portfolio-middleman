@@ -5,17 +5,23 @@
   color: "#EB6440"
   year: 2023
 
-- name: Movie Watchlist
-  description: Decent description of the app
-  image: projects/placeholder.png
-  url: https://www.google.com
+- name: Fishr
+  description: Group of batchmate from Le Wagon batch 1190 join together to create a Huntr Clone for Job seekers
+  image: projects/Fishr_Logo.png
+  url:
+  color: "#67C9E2"
+  year: 2023
 
-- name: Airbnb
-  description: Decent description of the app
+- name: Mine Sweeper (Upload soon)
+  description: Classic game recreated with Vanilla Javascript
   image: projects/placeholder.png
   url: https://www.google.com
+  color: "#EB6440"
+  year: 2023
 
-- name: Final project
-  description: Decent description of the app
+- name: Photo Gallery (Upload soon)
+  description: React project to display my pictures
   image: projects/placeholder.png
   url: https://www.google.com
+  color: "#EB6440"
+  year: 2023
