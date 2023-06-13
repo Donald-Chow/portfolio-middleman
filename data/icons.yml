@@ -1,0 +1,16 @@
+- category: backend
+  elements:
+    - name: ruby
+      plain: <i class="devicon-ruby-plain colored"></i>
+      svg: <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-original-wordmark.svg" />
+    - name: rails
+      plain: <i class="devicon-rails-plain colored"></i>
+      svg: <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rails/rails-original-wordmark.svg" />
+    - name: heroku
+      plain: <i class="devicon-heroku-plain-wordmark colored"></i>
+      svg: <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/heroku/heroku-plain-wordmark.svg" />
+- category: frontend
+  elements:
+    - name: html
+      plain: <i class="devicon-html5-plain-wordmark colored"></i>
+      svg: <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg" />

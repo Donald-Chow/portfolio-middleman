@@ -1,1 +1,23 @@
-<%# <h1>Hi i am Tech Stack</h1> %>
+<h1>Hi i am Tech Stack</h1>
+<% data.icons.each do |category| %>
+  <h2><%= category['category'] %></h2>
+  <% category['elements'].each do |element| %>
+    <p>
+      <%= element['plain'] %>
+    </p>
+  <% end %>
+<% end %>
+
+<h1>test search</h1>
+
+<% stack = ["ruby", "html", "rails"] %>
+
+<% stack.each do |tech| %>
+  <% data.icons.each do |category| %>
+    <% category['elements'].each do |element| %>
+      <% if element['name'] == tech %>
+        <%= element.svg %>\
+      <% end %>
+    <% end %>
+  <% end %>
+<% end %>
