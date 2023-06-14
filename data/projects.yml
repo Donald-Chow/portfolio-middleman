@@ -1,19 +1,59 @@
-- name: Longest Word Game
-  description: Decent description of the app
-  image: projects/placeholder.png
-  url: https://www.google.com
+- name: SmartVacay
+  description: Final project for Batch 1190 Web Development course. This Web App allows user to create an itinerary for their trip with a single click of a button.
+  image: projects/logo_orange_bg.png
+  url: https://www.smartvacay.app
+  color: "#EB6440"
+  year: 2023
+  stack:
+    [
+      "ruby",
+      "rails,",
+      "html",
+      "css",
+      "bootstrap",
+      "javascript",
+      "webpack",
+      "heroku",
+      "postgresql",
+      "figma",
+      "git",
+      "github",
+    ]
 
-- name: Movie Watchlist
-  description: Decent description of the app
-  image: projects/placeholder.png
-  url: https://www.google.com
+- name: Fishr
+  description: Group of batchmate from Le Wagon batch 1190 join together to create a Huntr Clone for Job seekers
+  image: projects/Fishr_Logo.png
+  url:
+  color: "#67C9E2"
+  year: 2023
+  stack:
+    [
+      "ruby",
+      "rails,",
+      "html",
+      "css",
+      "tailwind",
+      "reactjs",
+      "webpack",
+      "docker",
+      "postgresql",
+      "figma",
+      "git",
+      "github",
+    ]
 
-- name: Airbnb
-  description: Decent description of the app
+- name: Mine Sweeper (Upload soon)
+  description: Classic game recreated with Vanilla Javascript
   image: projects/placeholder.png
-  url: https://www.google.com
+  url:
+  color: "#EB6440"
+  year: 2023
+  stack: ["javascript", "html", "css"]
 
-- name: Final project
-  description: Decent description of the app
+- name: Photo Gallery (Upload soon)
+  description: React project to display my pictures
   image: projects/placeholder.png
-  url: https://www.google.com
+  url:
+  color: "#EB6440"
+  year: 2023
+  stack: ["reactjs", "html", "css"]

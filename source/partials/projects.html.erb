@@ -1,24 +1,44 @@
 <div class="row my-5">
   <div class="col-12">
-    <div class="container">
-      <div id="projects">
-        <h2> Projects</h2>
-        <div class="cards">
-          <% data.projects.each do |project| %>
-            <div class="card-product">
-              <%= image_tag project.image, alt: "project image" %>
-              <div class="card-product-infos w-100">
+    <div id="projects">
+      <h2> Projects</h2>
+      <div class="cards">
+        <% data.projects.each do |project| %>
+          <div class="card-product" style="border-left: 3px solid <%= project.color %>;">
+            <%= image_tag project.image, alt: "project image" %>
+            <div class="card-product-outer">
+              <div class="card-product-year">
+                <%= project.year %>
+              </div>
+              <div class="card-product-infos my-2">
                 <div class="d-flex justify-content-between align-items-center">
                   <h2><%= project.name %></h2>
-                  <% link_to project.url, class: 'external-link', target: '_blank' do %>
-                    <i class="fas fa-external-link-alt"></i>
+                  <% if project.url.present? %>
+                    <% link_to project.url, class: 'external-link', target: '_blank' do %>
+                      <div style="color: <%= project.color %>">
+                        <i class="fas fa-external-link-alt"></i> Link
+                      </div>
+                    <% end %>
                   <% end %>
                 </div>
+                <!-- project description -->
                 <p><%= project.description %></p>
+
+                <!-- stack icons -->
+                <% project.stack.each do |tech| %>
+                  <% data.icons.each do |category| %>
+                    <% category['elements'].each do |element| %>
+                      <% if element['name'] == tech %>
+                        <%= element.plain %>
+                      <% end %>
+                    <% end %>
+                  <% end %>
+                <% end %>
+
               </div>
             </div>
-          <% end %>
-        </div>
+          </div>
+        <% end %>
       </div>
     </div>
   </div>

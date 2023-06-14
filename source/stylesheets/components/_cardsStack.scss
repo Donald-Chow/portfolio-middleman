@@ -1,0 +1,49 @@
+// .cards-stack {
+
+// }
+
+.card-stack-outer {
+  padding-top: 8px;
+  // position: relative;
+}
+
+.card-stack {
+  background: white;
+  min-height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 4px;
+}
+
+.stack-title {
+  // background-color: red;
+  // position: absolute;
+  // top: 0;
+  // left: 50%;
+  // transform: translate( -50%, 8px);
+  // z-index: 1;
+  // border-radius: 4px;
+  // padding:4px;
+  align-self: center;
+  transform: rotate(-90deg);
+  transform-origin: left top;
+  translate: 0% 250%;
+  font-size: 16px;
+  margin-left: 16px;
+}
+
+.stack-element {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex: 1;
+  flex-wrap: wrap;
+}
+
+.card-stack img {
+  height: 60px;
+  width: 60px;
+  object-fit: cover;
+  margin: 6px;
+}
