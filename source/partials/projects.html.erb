@@ -13,11 +13,28 @@
               <div class="card-product-infos my-2">
                 <div class="d-flex justify-content-between align-items-center">
                   <h2><%= project.name %></h2>
-                  <% link_to project.url, class: 'external-link', target: '_blank' do %>
-                    <i class="fas fa-external-link-alt"></i>
+                  <% if project.url.present? %>
+                    <% link_to project.url, class: 'external-link', target: '_blank' do %>
+                      <div style="color: <%= project.color %>">
+                        <i class="fas fa-external-link-alt"></i> Link
+                      </div>
+                    <% end %>
                   <% end %>
                 </div>
+                <!-- project description -->
                 <p><%= project.description %></p>
+
+                <!-- stack icons -->
+                <% project.stack.each do |tech| %>
+                  <% data.icons.each do |category| %>
+                    <% category['elements'].each do |element| %>
+                      <% if element['name'] == tech %>
+                        <%= element.plain %>
+                      <% end %>
+                    <% end %>
+                  <% end %>
+                <% end %>
+
               </div>
             </div>
           </div>
@@ -26,3 +43,19 @@
     </div>
   </div>
 </div>
+
+<!--
+<h1>test search</h1>
+
+<% stack = ["ruby", "html", "rails"] %>
+
+<% stack.each do |tech| %>
+  <% data.icons.each do |category| %>
+    <% category['elements'].each do |element| %>
+      <% if element['name'] == tech %>
+        <%= element.svg %>\
+      <% end %>
+    <% end %>
+  <% end %>
+<% end %>
+-->
