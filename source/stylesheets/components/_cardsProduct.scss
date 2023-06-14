@@ -34,11 +34,16 @@
     .card-product-infos {
       padding-top: 0;
     }
+
+    .external-link {
+      opacity: 1;
+    }
   }
 }
 
 .card-product-outer {
   display: flex;
+  flex: 1;
 }
 
 .card-product-year {
@@ -69,11 +74,6 @@
 .card-product .card-product-infos {
   padding: 16px;
   min-width: 350px;
-  &:hover {
-    .external-link {
-      opacity: 1;
-    }
-  }
 }
 
 .external-link {
