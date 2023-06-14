@@ -4,6 +4,21 @@
   url: https://www.smartvacay.app
   color: "#EB6440"
   year: 2023
+  stack:
+    [
+      "ruby",
+      "rails,",
+      "html",
+      "css",
+      "bootstrap",
+      "javascript",
+      "webpack",
+      "heroku",
+      "postgresql",
+      "figma",
+      "git",
+      "github",
+    ]
 
 - name: Fishr
   description: Group of batchmate from Le Wagon batch 1190 join together to create a Huntr Clone for Job seekers
@@ -11,17 +26,34 @@
   url:
   color: "#67C9E2"
   year: 2023
+  stack:
+    [
+      "ruby",
+      "rails,",
+      "html",
+      "css",
+      "tailwind",
+      "reactjs",
+      "webpack",
+      "docker",
+      "postgresql",
+      "figma",
+      "git",
+      "github",
+    ]
 
 - name: Mine Sweeper (Upload soon)
   description: Classic game recreated with Vanilla Javascript
   image: projects/placeholder.png
-  url: https://www.google.com
+  url:
   color: "#EB6440"
   year: 2023
+  stack: ["javascript", "html", "css"]
 
 - name: Photo Gallery (Upload soon)
   description: React project to display my pictures
   image: projects/placeholder.png
-  url: https://www.google.com
+  url:
   color: "#EB6440"
   year: 2023
+  stack: ["reactjs", "html", "css"]
