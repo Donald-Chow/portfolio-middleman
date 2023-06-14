@@ -7,9 +7,19 @@
     - name: rails
       plain: <i class="devicon-rails-plain colored"></i>
       svg: <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rails/rails-original-wordmark.svg" />
-    - name: heroku
-      plain: <i class="devicon-heroku-plain-wordmark colored"></i>
-      svg: <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/heroku/heroku-plain-wordmark.svg" />
+    - name: python
+      plain: <i class="devicon-python-plain colored"></i>
+      svg: <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original-wordmark.svg" />
+    - name: django
+      plain: <i class="devicon-django-plain colored"></i>
+      svg: <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/django/django-plain.svg" />
+    - name: SQL
+    - name: postgresql
+      plain: <i class="devicon-postgresql-plain colored"></i>
+      svg: <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original-wordmark.svg" />
+    - name: google
+      plain: <i class="devicon-google-plain"></i>
+      svg: <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/google/google-original.svg" />
 
 - category: front end
   color: blue
@@ -17,3 +27,50 @@
     - name: html
       plain: <i class="devicon-html5-plain-wordmark colored"></i>
       svg: <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg" />
+    - name: css
+      plain: <i class="devicon-css3-plain colored"></i>
+      svg: <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original-wordmark.svg" />
+    - name: bootstrap
+      plain: <i class="devicon-bootstrap-plain colored"></i>
+      svg: <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original-wordmark.svg" />
+    - name: reactjs
+      plain: <i class="devicon-react-original colored"></i>
+      svg: <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" />
+    - name: ajax
+    - name: javascript
+      plain: <i class="devicon-javascript-plain colored"></i>
+      svg: <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
+    - name: tailwind
+      plain: <i class="devicon-tailwindcss-plain"></i>
+      svg: <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg" />
+    - name: webpack
+      plain: <i class="devicon-webpack-plain colored"></i>
+      svg: <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/webpack/webpack-original.svg" />
+    - name: yarn
+      plain: <i class="devicon-yarn-plain colored"></i>
+      svg: <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/yarn/yarn-original.svg" />
+
+- category: tools
+  color: red
+  elements:
+    - name: git
+      plain: <i class="devicon-git-plain colored"></i>
+      svg: <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" />
+    - name: github
+      plain: <i class="devicon-github-original colored"></i>
+      svg: <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original-wordmark.svg" />
+    - name: vscode
+      plain: <i class="devicon-vscode-plain"></i>
+      svg: <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original-wordmark.svg" />
+    - name: heroku
+      plain: <i class="devicon-heroku-plain-wordmark colored"></i>
+      svg: <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/heroku/heroku-plain-wordmark.svg" />
+    - name: figma
+      plain: <i class="devicon-figma-plain colored"></i>
+      svg: <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" />
+    - name: docker
+      plain: <i class="devicon-docker-plain-wordmark colored"></i>
+      svg: <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original-wordmark.svg" />
+    - name: digitalocean
+      plain: <i class="devicon-digitalocean-plain colored"></i>
+      svg: <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/digitalocean/digitalocean-original-wordmark.svg" />
