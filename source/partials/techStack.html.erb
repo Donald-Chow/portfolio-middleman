@@ -3,7 +3,11 @@
   <% data.icons.each do |category| %>
     <div class="card-stack-outer">
       <div class="card-stack" style="border-left: 3px solid <%= category.color %>;">
-        <h3 class="stack-title"><%= category['category'] %></h3>
+        <div class="stack-title-rotated-text">
+          <div class="stack-title-centered-text">
+            <%= category['category'] %>
+          </div>
+        </div>
         <div class="stack-element">
           <% category['elements'].each do |element| %>
             <%= element['svg'] %>
