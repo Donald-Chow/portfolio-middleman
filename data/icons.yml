@@ -40,15 +40,12 @@
     - name: javascript
       plain: <i class="devicon-javascript-plain colored"></i>
       svg: <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
-    - name: tailwind
-      plain: <i class="devicon-tailwindcss-plain"></i>
-      svg: <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg" />
-    - name: webpack
-      plain: <i class="devicon-webpack-plain colored"></i>
-      svg: <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/webpack/webpack-original.svg" />
-    - name: yarn
-      plain: <i class="devicon-yarn-plain colored"></i>
-      svg: <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/yarn/yarn-original.svg" />
+    # - name: tailwind
+    #   plain: <i class="devicon-tailwindcss-plain"></i>
+    #   svg: <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg" />
+    # - name: webpack
+    #   plain: <i class="devicon-webpack-plain colored"></i>
+    #   svg: <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/webpack/webpack-original.svg" />
 
 - category: tools
   color: red
@@ -68,9 +65,9 @@
     - name: figma
       plain: <i class="devicon-figma-plain colored"></i>
       svg: <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" />
-    - name: docker
-      plain: <i class="devicon-docker-plain-wordmark colored"></i>
-      svg: <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original-wordmark.svg" />
-    - name: digitalocean
-      plain: <i class="devicon-digitalocean-plain colored"></i>
-      svg: <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/digitalocean/digitalocean-original-wordmark.svg" />
+    # - name: docker
+    #   plain: <i class="devicon-docker-plain-wordmark colored"></i>
+    #   svg: <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original-wordmark.svg" />
+    # - name: digitalocean
+    #   plain: <i class="devicon-digitalocean-plain colored"></i>
+    #   svg: <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/digitalocean/digitalocean-original-wordmark.svg" />

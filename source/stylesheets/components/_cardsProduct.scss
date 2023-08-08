@@ -4,7 +4,7 @@
 
 .card-product {
   overflow: hidden;
-  height: 120px;
+  height: 150px;
   background: white;
   // box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
   display: flex;
@@ -134,7 +134,7 @@
 @media (min-width: 768px) {
   .card-product {
     display: flex;
-    height:120px;
+    height:150px;
   }
   .card-product img {
     height: 100%;

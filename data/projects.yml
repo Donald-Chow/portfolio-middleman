@@ -20,40 +20,41 @@
       "github",
     ]
 
-- name: Fishr
-  description: Group of batchmate from Le Wagon batch 1190 join together to create a Huntr Clone for Job seekers
-  image: projects/Fishr_Logo.png
+- name: "Japan Ski Resort API"
+  description: API for important ski resort information in Japan built with Rails
+  image: projects/placeholder.png
+  url: https://github.com/Donald-Chow/japan-ski-resort-api
+  color: "#36b8c9"
+  year: 2023
+  stack: ["ruby", "rails"]
+
+- name: "[Mini game Series] Coach Chatbot"
+  description: Mini Chatbot with Rails and AJAX
+  image: projects/placeholder.png
+  url: https://stupid-coach-chatbot-e432538aa0d4.herokuapp.com/
+  color: "#49429e"
+  year: 2023
+  stack: ["ruby", "rails", "html", "css"]
+
+- name: Cocktail Crafter(Upload soon)
+  description: Private project build with Django and Cocktail DB API
+  image: projects/placeholder.png
   url:
   color: "#67C9E2"
   year: 2023
-  stack:
-    [
-      "ruby",
-      "rails,",
-      "html",
-      "css",
-      "tailwind",
-      "reactjs",
-      "webpack",
-      "docker",
-      "postgresql",
-      "figma",
-      "git",
-      "github",
-    ]
+  stack: ["python", "django", "html", "css", "git", "github"]
 
-- name: Mine Sweeper (Upload soon)
+- name: "[Mini game Series] Mine Sweeper (Upload soon)"
   description: Classic game recreated with Vanilla Javascript
   image: projects/placeholder.png
   url:
   color: "#EB6440"
   year: 2023
   stack: ["javascript", "html", "css"]
-
-- name: Photo Gallery (Upload soon)
-  description: React project to display my pictures
-  image: projects/placeholder.png
-  url:
-  color: "#EB6440"
-  year: 2023
-  stack: ["reactjs", "html", "css"]
+# - name: Photo Gallery (Upload soon)
+#   description: React project to display my pictures
+#   image: projects/placeholder.png
+#   url:
+#   color: "#EB6440"
+#   year: 2023
+#   stack: ["reactjs", "html", "css"]
