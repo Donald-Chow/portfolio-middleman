@@ -22,8 +22,10 @@
       "github",
     ]
 
-- name: Dinelemma
-  description: Solo project build with Vue frontend and Rails API backend
+- name: Dinelemma (Upload soon)
+  description: Solo project build with Vue frontend and Rails API backend. This app help group of people decide on where to eat.
+  description2: Dinelemma allow user to make groups with other users whom you plan to go dinner with. By starting a voting session with a selected list of Restaurant to choose from, all users in the group can decide for each restaurant whether they are okay or not okay with the location.
+  description3: Once there is a location which all user are okay with, the app will end the voting session and present to everyone the favored location for dinning!
   image: projects/placeholder.png
   url:
   color: "#DB7F85"
@@ -52,7 +54,7 @@
   url: https://stupid-coach-chatbot-e432538aa0d4.herokuapp.com/
   color: "#49429e"
   year: 2023
-  stack: ["ruby", "rails", "html", "css"]
+  stack: ["ruby", "rails", "javascript", "html", "css"]
 
 - name: Cocktail Crafter(Upload soon)
   description: Private project build with Django and Cocktail DB API
