@@ -4,13 +4,13 @@
       <h2> Projects</h2>
       <div class="cards">
         <% data.projects.each do |project| %>
-          <div class="card-product" style="border-left: 3px solid <%= project.color %>;">
+          <div class="card-project" style="border-left: 3px solid <%= project.color %>;">
             <%= image_tag project.image, alt: "project image" %>
-            <div class="card-product-outer">
-              <div class="card-product-year">
+            <div class="card-project-outer">
+              <div class="card-project-year">
                 <%= project.year %>
               </div>
-              <div class="card-product-infos my-2">
+              <div class="card-project-infos my-2">
                 <div class="d-flex justify-content-between align-items-center">
                   <h2><%= project.name %></h2>
                   <% if project.url.present? %>
@@ -22,7 +22,8 @@
                   <% end %>
                 </div>
                 <!-- project description -->
-                <p><%= project.description %></p>
+                <p class="mb-1 description-primary"><%= project.description %></p>
+                <p class="mb-1 description-optional"><%= project.description2 %></p>
 
                 <!-- stack icons -->
                 <% project.stack.each do |tech| %>
