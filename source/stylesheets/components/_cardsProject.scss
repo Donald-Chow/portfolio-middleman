@@ -2,7 +2,7 @@
 
 // }
 
-.card-product {
+.card-project {
   overflow: hidden;
   height: 150px;
   background: white;
@@ -16,23 +16,31 @@
   transition-duration: 0.3s;
   transition-delay: 0.1s;
 
+  .card-project-infos .description-optional {
+    display: none
+  }
+
   &:hover {
     filter:grayscale(0%);
     height: 500px;
 
-    .card-product-outer {
+    .card-project-outer {
       display: block;
     }
 
-    .card-product-year{
+    .card-project-year{
       transform: none;
       translate: none;
       padding-left: 16px;
       padding-top: 16px
     }
 
-    .card-product-infos {
+    .card-project-infos {
       padding-top: 0;
+
+      .description-optional {
+        display: block;
+      }
     }
 
     .external-link {
@@ -41,29 +49,29 @@
   }
 }
 
-.card-product-outer {
+.card-project-outer {
   display: flex;
   flex: 1;
 }
 
-.card-product-year {
+.card-project-year {
   transform: rotate(-90deg);
   transform-origin: right top;
   translate: -70% 35%;
 }
 
-.card-product img {
+.card-project img {
   width: 200%;
   object-fit: cover;
 }
 
-.card-product h2 {
+.card-project h2 {
   font-size: 16px;
   font-weight: bold;
   margin: 0;
 }
 
-.card-product p {
+.card-project p {
   font-size: 12px;
   line-height: 1.4;
   opacity: .7;
@@ -71,9 +79,9 @@
   margin-top: 8px;
 }
 
-.card-product .card-product-infos {
+.card-project .card-project-infos {
   padding: 16px;
-  min-width: 350px;
+  min-width: 300px;
 }
 
 .external-link {
@@ -93,11 +101,11 @@
   // .cards {
   //   grid-template-columns: 1fr;
   // }
-  .card-product {
+  .card-project {
     display: block;
     height:auto;
   }
-  .card-product img {
+  .card-project img {
     height: 100px;
     width:100%;
     &:hover {
@@ -114,11 +122,11 @@
   // .cards {
   //   grid-template-columns: 1fr;
   // }
-  .card-product {
+  .card-project {
     display: block;
     height:auto;
   }
-  .card-product img {
+  .card-project img {
     height: 100px;
     width: 100%;
     &:hover {
@@ -132,11 +140,11 @@
 
 // Medium devices (tablets, 768px and up)
 @media (min-width: 768px) {
-  .card-product {
+  .card-project {
     display: flex;
     height:150px;
   }
-  .card-product img {
+  .card-project img {
     height: 100%;
     width: 200%;
     max-width: 300px;
@@ -151,7 +159,7 @@
 
 // Large devices (desktops, 992px and up)
 @media (min-width: 992px) {
-  .card-product img {
+  .card-project img {
     height: 100%;
     max-width: 500px;
     &:hover {
@@ -163,7 +171,7 @@
 
 // Extra large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) {
-  .card-product img {
+  .card-project img {
     height: 100%;
     max-width: 700px;
     &:hover {

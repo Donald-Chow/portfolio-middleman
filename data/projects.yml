@@ -1,5 +1,7 @@
 - name: SmartVacay
-  description: Final project for Batch 1190 Web Development course. This Web App allows user to create an itinerary for their trip with a single click of a button.
+  description: Final project for Le Wagon Batch 1190 Web Development course. This Web App allows user to create an itinerary for their trip with a single click of a button.
+  description2: SmartVacay uses the Google Places API to fetch point of interest information after you've created a trip by entering the location and dates. The points of interest generated are based on the trip location, but the search function can also search for locations in other areas, allowing you to explore additional cities during your trip. By adding your desired locations to your wishlist, the app will know which places you want to visit on your trip.
+  description3: When you generate the itinerary, SmartVacay takes into account the locations of your saved points of interest and groups them into logical days for your trip, minimizing the need to travel long distances between points of interest each day. Lastly, SmartVacay updates the travel duration needed based on the itinerary, allowing you to edit it as you see fit and providing information about the distance to each location immediately.
   image: projects/logo_orange_bg.png
   url: https://www.smartvacay.app
   color: "#EB6440"
@@ -20,6 +22,16 @@
       "github",
     ]
 
+- name: Dinelemma (Upload soon)
+  description: Solo project build with Vue frontend and Rails API backend. This app help group of people decide on where to eat.
+  description2: Dinelemma allow user to make groups with other users whom you plan to go dinner with. By starting a voting session with a selected list of Restaurant to choose from, all users in the group can decide for each restaurant whether they are okay or not okay with the location.
+  description3: Once there is a location which all user are okay with, the app will end the voting session and present to everyone the favored location for dinning!
+  image: projects/placeholder.png
+  url:
+  color: "#DB7F85"
+  year: 2023
+  stack: ["vue", "rails", "javascript", "ruby", "html", "css", "git", "github"]
+
 - name: "Japan Ski Resort API"
   description: API for important ski resort information in Japan built with Rails
   image: projects/placeholder.png
@@ -28,13 +40,21 @@
   year: 2023
   stack: ["ruby", "rails"]
 
+- name: "[Mini game Series] Mine Sweeper (Upload soon)"
+  description: Classic game recreated with Vanilla Javascript
+  image: projects/placeholder.png
+  url:
+  color: "#EB6440"
+  year: 2023
+  stack: ["javascript", "html", "css"]
+
 - name: "[Mini game Series] Coach Chatbot"
   description: Mini Chatbot with Rails and AJAX
   image: projects/placeholder.png
   url: https://stupid-coach-chatbot-e432538aa0d4.herokuapp.com/
   color: "#49429e"
   year: 2023
-  stack: ["ruby", "rails", "html", "css"]
+  stack: ["ruby", "rails", "javascript", "html", "css"]
 
 - name: Cocktail Crafter(Upload soon)
   description: Private project build with Django and Cocktail DB API
@@ -44,13 +64,6 @@
   year: 2023
   stack: ["python", "django", "html", "css", "git", "github"]
 
-- name: "[Mini game Series] Mine Sweeper (Upload soon)"
-  description: Classic game recreated with Vanilla Javascript
-  image: projects/placeholder.png
-  url:
-  color: "#EB6440"
-  year: 2023
-  stack: ["javascript", "html", "css"]
 # - name: Photo Gallery (Upload soon)
 #   description: React project to display my pictures
 #   image: projects/placeholder.png

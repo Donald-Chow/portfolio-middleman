@@ -30,22 +30,25 @@
     - name: css
       plain: <i class="devicon-css3-plain colored"></i>
       svg: <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original-wordmark.svg" />
+    - name: Vue.js
+      plain: <i class="devicon-vuejs-plain colored"></i>
+      svg: <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original-wordmark.svg" />
     - name: bootstrap
       plain: <i class="devicon-bootstrap-plain colored"></i>
       svg: <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original-wordmark.svg" />
-    - name: reactjs
-      plain: <i class="devicon-react-original colored"></i>
-      svg: <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" />
-    - name: ajax
     - name: javascript
       plain: <i class="devicon-javascript-plain colored"></i>
       svg: <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
+    # - name: reactjs
+    #   plain: <i class="devicon-react-original colored"></i>
+    #   svg: <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" />
     # - name: tailwind
     #   plain: <i class="devicon-tailwindcss-plain"></i>
     #   svg: <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg" />
     # - name: webpack
     #   plain: <i class="devicon-webpack-plain colored"></i>
     #   svg: <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/webpack/webpack-original.svg" />
+    # - name: ajax
 
 - category: tools
   color: red

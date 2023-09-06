@@ -1,19 +1,21 @@
-<h2>Tech Stack</h2>
-<div class="cards-stack">
-  <% data.icons.each do |category| %>
-    <div class="card-stack-outer">
-      <div class="card-stack" style="border-left: 3px solid <%= category.color %>;">
-        <div class="stack-title-rotated-text">
-          <div class="stack-title-centered-text">
-            <%= category['category'] %>
+<div id="tech-stack" class="nav-group">
+  <h2>Tech Stack</h2>
+  <div class="cards-stack">
+    <% data.icons.each do |category| %>
+      <div class="card-stack-outer">
+        <div class="card-stack" style="border-left: 3px solid <%= category.color %>;">
+          <div class="stack-title-rotated-text">
+            <div class="stack-title-centered-text">
+              <%= category['category'] %>
+            </div>
+          </div>
+          <div class="stack-element">
+            <% category['elements'].each do |element| %>
+              <%= element['svg'] %>
+            <% end %>
           </div>
         </div>
-        <div class="stack-element">
-          <% category['elements'].each do |element| %>
-            <%= element['svg'] %>
-          <% end %>
-        </div>
       </div>
-    </div>
-  <% end %>
+    <% end %>
+  </div>
 </div>
