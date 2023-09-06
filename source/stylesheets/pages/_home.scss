@@ -1,7 +1,12 @@
 // Specific CSS for your home-page
 
 // about section
-#about{
+
+.nav-group {
+  padding-top: 4rem;
+}
+
+.about{
   border-right: 3px solid $gray;
   height: 85%;
   flex: 1;
