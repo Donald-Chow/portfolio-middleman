@@ -30,7 +30,7 @@
     - name: css
       plain: <i class="devicon-css3-plain colored"></i>
       svg: <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original-wordmark.svg" />
-    - name: Vue.js
+    - name: vue
       plain: <i class="devicon-vuejs-plain colored"></i>
       svg: <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original-wordmark.svg" />
     - name: bootstrap
