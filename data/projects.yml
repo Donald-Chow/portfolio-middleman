@@ -30,7 +30,8 @@
   url:
   color: "#DB7F85"
   year: 2023
-  stack: ["vue", "rails", "javascript", "ruby", "html", "css", "git", "github"]
+  stack: ["vue", "rails", "javascript", "ruby", "html", "css", "heroku",
+      "postgresql", "git", "github"]
 
 - name: "Japan Ski Resort API"
   description: API for important ski resort information in Japan built with Rails
