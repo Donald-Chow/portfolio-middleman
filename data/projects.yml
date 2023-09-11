@@ -22,12 +22,12 @@
       "github",
     ]
 
-- name: Dinelemma (Upload soon)
-  description: Solo project build with Vue frontend and Rails API backend. This app help group of people decide on where to eat.
-  description2: Dinelemma allow user to make groups with other users whom you plan to go dinner with. By starting a voting session with a selected list of Restaurant to choose from, all users in the group can decide for each restaurant whether they are okay or not okay with the location.
-  description3: Once there is a location which all user are okay with, the app will end the voting session and present to everyone the favored location for dinning!
+- name: Dinelemma (Alpha V 0.1)
+  description:  Can't make a decision on where to eat as a group? Dinelemma is for diners who have a dilemma. Dinelemma allow user to create friend groups with other users whom you plan to go dinner with, then by starting a voting session with a selected list of Restaurant to choose from. Instead of choosing the ultimate food location, simply decide 'yes' or 'no' for a restaurant shown on the screen, and the app will tell you where the group has decided to go once the votes are in.
+  description2: This is a solo project build with Vue frontend and Rails API backend. This is build while learning about Rails as API and Vue framework. I have decided to continue building this app and giving it a complete makeover on the frontend UI in Beta version.This app is build as a mobile web app and is expected to be used with PWA.
+  description3: After logging in you will be greeted by the groups page, where you can create a dining group with your friends. You can also go to the explore page where you can browse restaurants where the app uses Google API to fetch for POI and add that to a favorites list. In your group, by starting a vote session with a favorites list of your choice, you can your dining party can start voting away until the app find a place where it matches to everyone's preference.
   image: projects/placeholder.png
-  url:
+  url: https://dinelemma.netlify.app
   color: "#DB7F85"
   year: 2023
   stack: ["vue", "rails", "javascript", "ruby", "html", "css", "heroku",
@@ -41,16 +41,16 @@
   year: 2023
   stack: ["ruby", "rails"]
 
-- name: "[Mini game Series] Mine Sweeper (Upload soon)"
-  description: Classic game recreated with Vanilla Javascript
+- name: "[Mini game Series] Mine Sweeper"
+  description: Classic game recreated with Vanilla Javascript with basic functions. Smoother game play will be improved soon.
   image: projects/placeholder.png
-  url:
+  url: https://donald-chow.github.io/minesweeper/
   color: "#EB6440"
   year: 2023
   stack: ["javascript", "html", "css"]
 
 - name: "[Mini game Series] Coach Chatbot"
-  description: Mini Chatbot with Rails and AJAX
+  description: Mini Chatbot with Rails and AJAX. He only say a few things, but you can try asking him questions or shouting at him.
   image: projects/placeholder.png
   url: https://stupid-coach-chatbot-e432538aa0d4.herokuapp.com/
   color: "#49429e"
@@ -58,7 +58,7 @@
   stack: ["ruby", "rails", "javascript", "html", "css"]
 
 - name: Cocktail Crafter(Upload soon)
-  description: Private project build with Django and Cocktail DB API
+  description: Private project build with Django and Cocktail DB API, learning the Django framework while practicing python. This app is a bar back inventory manager as well as a cocktail recommendation web app.
   image: projects/placeholder.png
   url:
   color: "#67C9E2"
