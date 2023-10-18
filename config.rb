@@ -18,7 +18,7 @@ page '/*.txt', layout: false
 
 # Proxy pages
 # https://middlemanapp.com/advanced/dynamic-pages/
-
+proxy "/api_workshop", "api_workshop.html"
 # proxy(
 #   '/this-page-has-no-template.html',
 #   '/template-file.html',
