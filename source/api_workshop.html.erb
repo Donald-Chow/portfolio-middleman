@@ -44,7 +44,7 @@
       <div class="container-fluid">
         <a class="navbar-brand" href="#">
           <img src="https://raw.githubusercontent.com/lewagon/fullstack-images/master/uikit/logo.png" />
-    </a>
+        </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -62,11 +62,11 @@
         </div>
         <div class="carousel-inner">
           <div class="carousel-item active"data-bs-interval="10000">
-            <img src="https://secure.meetupstatic.com/photos/event/9/6/0/c/600_516278412.webp?w=384" class="d-block w-100" alt="API Workshop">
+            <img src="<%= image_path "api_workshop/api_workshop.jpg" %>" class="d-block w-100" alt="API Workshop">
           </div>
           <div class="carousel-item"data-bs-interval="10000">
             <a href="https://tinyurl.com/lw-api-ws">
-              <img src="<%= image_path "api_workshop/workshop_portal.png" %>" class="d-block w-100" alt="Workshop Portal">
+              <img src="<%= image_path "api_workshop/workshop_portal.jpg" %>" class="d-block w-100" alt="Workshop Portal">
             </a>
           </div>
           <div class="carousel-item" data-bs-interval="10000">
@@ -77,7 +77,7 @@
           </div>
           <div class="carousel-item"data-bs-interval="10000">
             <a href="https://tinyurl.com/lw-api-ws">
-              <img src="<%= image_path "api_workshop/workshop_portal.png" %>" class="d-block w-100" alt="Workshop Portal">
+              <img src="<%= image_path "api_workshop/workshop_portal.jpg" %>" class="d-block w-100" alt="Workshop Portal">
             </a>
           </div>
         </div>
@@ -96,8 +96,12 @@
         <a href="https://www.lewagon.com/tokyo"><i class="fa-solid fa-globe"></i></a>
         <a href="https://www.instagram.com/lewagontokyo"><i class="fab fa-instagram"></i></a>
         <a href="https://www.linkedin.com/showcase/le-wagon-tokyo"><i class="fab fa-linkedin"></i></a>
-        <a href="https://meetings.hubspot.com/sylvain-pierre"><div class="btn btn-danger">Join Bootcamp</div></a>
-        <a href="https://info.lewagon.com/programming-for-everybody-tokyo"><div class="btn btn-danger">FREE COURSE</div></a>
+        <a href="https://meetings.hubspot.com/sylvain-pierre">
+          <div class="btn btn-danger">Join Bootcamp</div>
+        </a>
+        <a href="https://info.lewagon.com/programming-for-everybody-tokyo">
+          <div class="btn btn-danger">FREE COURSE</div>
+        </a>
       </div>
       <div class="footer-copyright">
         <i class="fas fa-heart"></i> Le Wagon
@@ -158,6 +162,5 @@
     .footer .fa-heart {
       color: #D23333;
     }
-
   </style>
 </html>
