@@ -16,8 +16,11 @@ page '/*.txt', layout: false
 # With alternative layout
 # page '/path/to/file.html', layout: 'other_layout'
 
+
 # Proxy pages
 # https://middlemanapp.com/advanced/dynamic-pages/
+set :directory_indexes, true
+
 proxy "/api_workshop", "api_workshop.html"
 # proxy(
 #   '/this-page-has-no-template.html',
