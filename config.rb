@@ -14,7 +14,7 @@ page '/*.json', layout: false
 page '/*.txt', layout: false
 
 # With alternative layout
-# page '/path/to/file.html', layout: 'other_layout'
+page '/api_workshop/index.html', :layout => false
 
 
 # Proxy pages
