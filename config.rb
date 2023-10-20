@@ -21,7 +21,7 @@ page '/*.txt', layout: false
 # https://middlemanapp.com/advanced/dynamic-pages/
 set :directory_indexes, true
 
-proxy "/api_workshop", "api_workshop.html"
+# proxy "/api_workshop", "api_workshop"
 # proxy(
 #   '/this-page-has-no-template.html',
 #   '/template-file.html',
