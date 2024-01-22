@@ -20,6 +20,9 @@
     - name: google
       plain: <i class="devicon-google-plain"></i>
       svg: <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/google/google-original.svg" />
+    - name: redis
+      plain: <i class="devicon-redis-plain colored"></i>
+      svg: <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redis/redis-original-wordmark.svg" />
 
 - category: front end
   color: blue
