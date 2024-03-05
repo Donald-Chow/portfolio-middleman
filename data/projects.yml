@@ -9,7 +9,7 @@
   stack:
     [
       "ruby",
-      "rails,",
+      "rails",
       "html",
       "css",
       "bootstrap",
@@ -22,13 +22,13 @@
       "github",
     ]
 
-- name: Dinelemma (Alpha V 0.1)
+- name: Dinelemma (Beta V 0.2)
   description: Can't make a decision on where to eat as a group? Dinelemma is for diners who have a dilemma. Dinelemma simplify decision making and find a place where everyone wants to go.
-  description2: This is a solo project build with Vue frontend and Rails API backend. This is build while learning about Rails as API and Vue framework. I have decided to continue building this app and giving it a complete makeover on the frontend UI in Beta version. This app is build as a mobile web app and should be viewed on a mobile device.
-  description3: After logging in you will be greeted by the groups page, where you can create a dining group with your friends. You can also go to the explore page where you can browse restaurants where the app uses Google API to fetch for POI and add that to a favorites list. In your group, by starting a vote session with a favorites list of your choice. Instead of choosing the ultimate food location, simply decide 'yes' or 'no' for a restaurant shown on the screen. Once there is a restaurant where everyone wants to go app will tell you where the group has decided to go once the votes are in.
-  image: projects/placeholder.png
+  description2: This is a solo project build with Vue frontend and Rails API backend. This is built while learning about Rails as API and Vue framework. I have decided to continue building this app and giving it a complete makeover on the frontend UI in V 0.2 Beta version(updated 22 Jan 2024). This app is build as a mobile web app and should be viewed on a mobile device.
+  description3: After logging in you will be greeted by the groups page, where you can create a dining group with your friends. You can also go to the explore page where you can browse restaurants where the app uses Google API to fetch for POI and add that to a favorites list. In your group, by starting a vote session with a favorites list of your choice. Instead of choosing the ultimate food location, simply decide 'yes' or 'no' for a restaurant shown on the screen. Once there is a restaurant where everyone wants to go app will tell you where the group has decided to go once the votes are in. A Bot user has been added that will vote automatically in V 0.2 Beta.
+  image: projects/Dinelemma-Mockup.jpg
   url: https://dinelemma.netlify.app
-  color: "#DB7F85"
+  color: "#5492AC"
   year: 2023
   stack:
     [
