@@ -23,14 +23,26 @@
     ]
 
 - name: Dinelemma (Alpha V 0.1)
-  description:  Can't make a decision on where to eat as a group? Dinelemma is for diners who have a dilemma. Dinelemma simplify decision making and find a place where everyone wants to go.
+  description: Can't make a decision on where to eat as a group? Dinelemma is for diners who have a dilemma. Dinelemma simplify decision making and find a place where everyone wants to go.
   description2: This is a solo project build with Vue frontend and Rails API backend. This is build while learning about Rails as API and Vue framework. I have decided to continue building this app and giving it a complete makeover on the frontend UI in Beta version. This app is build as a mobile web app and should be viewed on a mobile device.
   description3: After logging in you will be greeted by the groups page, where you can create a dining group with your friends. You can also go to the explore page where you can browse restaurants where the app uses Google API to fetch for POI and add that to a favorites list. In your group, by starting a vote session with a favorites list of your choice. Instead of choosing the ultimate food location, simply decide 'yes' or 'no' for a restaurant shown on the screen. Once there is a restaurant where everyone wants to go app will tell you where the group has decided to go once the votes are in.
   image: projects/placeholder.png
   url: https://dinelemma.netlify.app
   color: "#DB7F85"
   year: 2023
-  stack: ["vue", "rails", "javascript", "ruby", "html", "css", "heroku", "postgresql", "git", "github"]
+  stack:
+    [
+      "vue",
+      "rails",
+      "javascript",
+      "ruby",
+      "html",
+      "css",
+      "heroku",
+      "postgresql",
+      "git",
+      "github",
+    ]
 
 - name: "Japan Ski Resort API"
   description: API for important ski resort information in Japan built with Rails
@@ -39,6 +51,14 @@
   color: "#36b8c9"
   year: 2023
   stack: ["ruby", "rails"]
+
+- name: "Todoist Line Chat Bot (In development)"
+  description: Middleware between Todoist and Line, where you can get your todos in your line, and send reminder message as line messages
+  image: projects/placeholder.png
+  url: https://github.com/Donald-Chow/todoist-line
+  color: "#06C755"
+  year: 2023
+  stack: ["ruby", "rails", "line"]
 
 - name: "[Mini game Series] Mine Sweeper"
   description: Classic game recreated with Vanilla Javascript with basic functions. Smoother game play will be improved soon.
@@ -55,14 +75,13 @@
   color: "#49429e"
   year: 2023
   stack: ["ruby", "rails", "javascript", "html", "css"]
-
-- name: Cocktail Crafter(In Development)
-  description: Private project build with Django and Cocktail DB API, learning the Django framework while practicing python. This app is a bar back inventory manager as well as a cocktail recommendation web app.
-  image: projects/placeholder.png
-  url:
-  color: "#67C9E2"
-  year: 2023
-  stack: ["python", "django", "html", "css", "git", "github"]
+# - name: Cocktail Crafter(In Development)
+#   description: Private project build with Django and Cocktail DB API, learning the Django framework while practicing python. This app is a bar back inventory manager as well as a cocktail recommendation web app.
+#   image: projects/placeholder.png
+#   url:
+#   color: "#67C9E2"
+#   year: 2023
+#   stack: ["python", "django", "html", "css", "git", "github"]
 
 # - name: Photo Gallery (Upload soon)
 #   description: React project to display my pictures

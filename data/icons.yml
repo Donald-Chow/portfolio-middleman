@@ -68,6 +68,10 @@
     - name: figma
       plain: <i class="devicon-figma-plain colored"></i>
       svg: <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" />
+    - name: line
+      plain: <i class="fa-brands fa-line"></i>
+      svg: <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" />
+
     # - name: docker
     #   plain: <i class="devicon-docker-plain-wordmark colored"></i>
     #   svg: <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original-wordmark.svg" />
