@@ -33,12 +33,12 @@
   stack: ["vue", "rails", "javascript", "ruby", "html", "css", "heroku", "postgresql", "redis", "git"]
 
 - name: "Japan Ski Resort API"
-  description: API for important ski resort information in Japan built with Rails
+  description: API for ski resorts information in Japan built with Rails. In the next update, it will also include daily update of weather and snow condition of that ski resort.
   image: projects/placeholder.png
   url: https://github.com/Donald-Chow/japan-ski-resort-api
   color: "#36b8c9"
   year: 2023
-  stack: ["ruby", "rails"]
+  stack: ["ruby", "rails", "postman"]
 
 - name: "[Mini game Series] Mine Sweeper"
   description: Classic game recreated with Vanilla Javascript with basic functions. Smoother game play will be improved soon.

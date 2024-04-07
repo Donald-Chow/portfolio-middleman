@@ -1,7 +1,7 @@
 <div class="row nav-group" id="projects">
   <div class="col-12">
       <h2> Projects</h2>
-      <div class="cards">
+      <div class="cards mt-3">
         <% data.projects.each do |project| %>
           <div class="card-project" style="border-left: 3px solid <%= project.color %>;">
             <%= image_tag project.image, alt: "project image" %>
