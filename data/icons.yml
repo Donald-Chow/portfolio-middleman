@@ -65,6 +65,9 @@
     - name: vscode
       plain: <i class="devicon-vscode-plain"></i>
       svg: <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original-wordmark.svg" />
+    - name: postman
+      plain: <i class="devicon-postman-plain colored"></i>
+      svg: <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postman/postman-original.svg" />
     - name: heroku
       plain: <i class="devicon-heroku-plain-wordmark colored"></i>
       svg: <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/heroku/heroku-plain-wordmark.svg" />
