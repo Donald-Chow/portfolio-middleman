@@ -7,12 +7,12 @@
     - name: rails
       plain: <i class="devicon-rails-plain colored"></i>
       svg: <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rails/rails-original-wordmark.svg" />
-    - name: python
-      plain: <i class="devicon-python-plain colored"></i>
-      svg: <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original-wordmark.svg" />
-    - name: django
-      plain: <i class="devicon-django-plain colored"></i>
-      svg: <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/django/django-plain.svg" />
+    # - name: python
+    #   plain: <i class="devicon-python-plain colored"></i>
+    #   svg: <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original-wordmark.svg" />
+    # - name: django
+    #   plain: <i class="devicon-django-plain colored"></i>
+    #   svg: <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/django/django-plain.svg" />
     - name: SQL
     - name: postgresql
       plain: <i class="devicon-postgresql-plain colored"></i>
@@ -74,9 +74,9 @@
     - name: figma
       plain: <i class="devicon-figma-plain colored"></i>
       svg: <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" />
-    # - name: docker
-    #   plain: <i class="devicon-docker-plain-wordmark colored"></i>
-    #   svg: <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original-wordmark.svg" />
+    - name: docker
+      plain: <i class="devicon-docker-plain-wordmark colored"></i>
+      svg: <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original-wordmark.svg" />
     # - name: digitalocean
     #   plain: <i class="devicon-digitalocean-plain colored"></i>
     #   svg: <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/digitalocean/digitalocean-original-wordmark.svg" />

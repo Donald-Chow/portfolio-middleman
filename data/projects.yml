@@ -56,13 +56,13 @@
   year: 2023
   stack: ["ruby", "rails", "javascript", "html", "css"]
 
-- name: Cocktail Crafter(In Development)
-  description: Private project build with Django and Cocktail DB API, learning the Django framework while practicing python. This app is a bar back inventory manager as well as a cocktail recommendation web app.
-  image: projects/placeholder.png
-  url:
-  color: "#67C9E2"
-  year: 2023
-  stack: ["python", "django", "html", "css", "git", "github"]
+# - name: Cocktail Crafter(In Development)
+#   description: Private project build with Django and Cocktail DB API, learning the Django framework while practicing python. This app is a bar back inventory manager as well as a cocktail recommendation web app.
+#   image: projects/placeholder.png
+#   url:
+#   color: "#67C9E2"
+#   year: 2023
+#   stack: ["python", "django", "html", "css", "git", "github"]
 
 # - name: Photo Gallery (Upload soon)
 #   description: React project to display my pictures
